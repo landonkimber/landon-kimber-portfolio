@@ -1,0 +1,129 @@
+:root {
+    /* declare a variable with `--` syntax */
+    --testborder: 3px solid;
+  }
+
+* {
+    text-align: left;
+    padding: 1px;
+}
+
+/* *************** HEADER *************** */
+    /* ***** HEADER-TEXT CLASS ***** */
+    header {
+        display:flex;
+        flex-wrap: wrap;
+        border: var(--testborder);
+    }
+    header .header-text {
+        border: var(--testborder);
+        min-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    header .header-text h1{
+        border: var(--testborder);
+        min-width: 350px;
+    }
+
+    header .header-text ul{
+        display: flex;
+        flex-direction: row;
+    }
+    header .header-text ul > * {
+        display: flex;
+        border: var(--testborder);
+    }
+
+    /* ****** HEADER-IMAGE CLASS ****** */
+    header .header-image {
+        display: flex;
+        border: var(--testborder);
+        min-width: 100%;
+        justify-content: space-evenly;
+    }
+    header .header-image > *{
+        max-width: 400px;
+    }
+/* *************** MAIN *************** **/
+    /* ***** ABOUT ***** */
+    about {
+        border: var(--testborder);
+        display:flex;
+        flex-wrap: wrap;
+        clear: left
+    }
+
+    about h2 {
+        min-width: 100%;
+        border: var(--testborder);
+    }
+    about p {
+        border: var(--testborder);
+    }
+    about .right {
+        float: right;
+        margin: 5px;
+    }
+    about .left {
+        margin: 5px;
+        float: left;
+    }
+
+    about img {
+        max-width: 150px;
+    }
+
+    /* ***** PROJECTS ***** */
+    projects {
+        display:flex;
+        flex-wrap: wrap;
+        border: var(--testborder);
+        justify-content: space-around;
+    }
+
+    projects section > * {
+        border: var(--testborder);
+        display:flex;
+        flex-direction: row;
+        min-width: 200px;
+    }
+    projects img {
+        max-width: 200px;
+    }
+
+
+    /* ****** CONTACT ***** */
+    contact {   
+        display:flex;
+        flex-wrap: wrap;
+        border: var(--testborder);
+        padding: 10px;
+        min-width: 500px;
+    }
+
+    contact ul {
+        display: flex;
+        border:var(--testborder);
+        min-width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    contact ul > *{
+        border:var(--testborder);
+    }
+
+/* *************** FOOTER *************** */
+
+footer {
+    display:flex;
+    justify-content: space-evenly;
+}
+footer > * {
+    border: var(--testborder);
+    display:flex;
+    padding: 10px;
+    flex-direction: row;
+}
