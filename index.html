@@ -6,6 +6,7 @@
     <title>Landon Kimber Portfolio</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/dynamic-style.css" />
 </head>
 <!-- ********** HEADER ********** -->
     <header>
@@ -13,9 +14,9 @@
             <h1>Landon Kimber</h1>
             <nav>
                 <ul>
-                    <li>About Me</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li><a href="#about-me"about-me>About Me</a></li>
+                    <li><a href="#projects"projects>Projects</a></li>
+                    <li><a href="#contact"contact>Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -25,7 +26,7 @@
     </header>
 <!-- ********** MAIN ********** -->
     <main>
-        <about>
+        <about id="about-me">
             <h2>About Me</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,<img class="right" src="assets/images/place-holder-image.png"></img> exercit
                 ationem repudiandae libero corrupti velit, esse numquam iste magni vero tenetur laborum dolorum ducimus sapiente delectus itaque expedita ips
@@ -36,8 +37,8 @@
                 um quis natus? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur ad aperiam quam! Soluta, vitae quidem. Sapiente cumque e
                 sse illum eaque nihil, unde suscipit iure inventore! Vero autem veniam laboriosam accusamus.tore! Vero autem veniam laboriosam accusamus.</p> 
         </about>
-    <!-- ********** ASIDE ********** -->
-        <projects>
+    <!-- ********** PROJECTS ********** -->
+        <projects id="projects">
             <section class="project-card">
                 <h2>Project 1</h2><h3>Coming soon!</h3>
                 <img src="assets/images/place-holder-image.png"></img>
@@ -56,12 +57,17 @@
             </section>
         </projects>
     <!-- ********** CONTACT ********** -->
-        <contact>
+        <contact id="contact">
+            <h3>Contact</h3>
             <ul>
-                <li>Email<img src="assets/images/icon-mail.png"></img></li>
-                <li>Phone<img src="assets/images/icon-phone.png"></img></li>
-                <li>Instagram<img src="assets/images/icon-instagram.png"></img></li>
+                <li><a href="mailto: landonkimber33@gmail.com">Email</a><a href="mailto: landonkimber33@gmail.com"><img src="assets/images/icon-mail.png"></a></img></li>
+                <li><a href= tel:+8015647310>Phone</a><a href=tel:+8015647310><img src="assets/images/icon-phone.png"></a></img></li>
+                <li><a href="https://www.instagram.com/landon.kimber/">Instagram</a><a href="https://www.instagram.com/landon.kimber/"><img src="assets/images/icon-instagram.png"></a></img></li>
                 <li>LinkedIn<img src="assets/images/icon-linkedin.png"></img></li>
+            </ul>
+            <ul>
+                <li>Email: landonkimber33@gmail.com</li>
+                <li>Phone: 801-564-7310</li>
             </ul>
         </contact>
     </main>

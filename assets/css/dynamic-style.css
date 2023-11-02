@@ -1,0 +1,37 @@
+
+
+/* This .css file is for the dynamic styling on the page such as hover, focus, animations, etc.*/      
+
+/* *************** HEADER *************** */
+header .header-text ul > *:hover {
+    font-size: 12px;
+    background-color: var(--brightgreen);
+    display: flex;
+    height: 45px;
+    box-shadow: 0 0 0 5px var(--aliceblue);
+}
+    /* ***** HEADER-TEXT CLASS ***** */
+    /* ****** HEADER-IMAGE CLASS ****** */
+
+/* *************** MAIN *************** */
+    /* ***** ABOUT ***** */    
+    /* ***** PROJECTS ***** */
+    projects section:hover {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--brightgreen);
+        color: var(--darkgrey);
+        border: 5px var(--brightgreen) solid;
+        box-shadow: 0 0 0 8px var(--aliceblue);
+    }
+
+    /* ****** CONTACT ***** */
+    contact ul > *:hover{
+        background-color: var(--brightgreen);
+        border: 3px solid var(--green);
+        box-shadow: 0 0 0 5px var(--brightgreen);
+    }
+
+/* *************** FOOTER *************** */
